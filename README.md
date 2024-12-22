@@ -11,6 +11,7 @@ Membangun model machine learning yang dapat memprediksi kemungkinan seorang nasa
 ### Data Understanding : ###
 Dataset memiliki 7.813 baris dan 11 kolom yang mencakup informasi tentang nasabah bank yang telah dikumpulkan selama kampanye pemasaran untuk mempromosikan produk deposito berjangka. Berikut penjelasan kolom yang tersedia:
 ![image](https://github.com/user-attachments/assets/42065c00-c2f5-41a6-81fa-ffca2f90bd29)
+
 **Kolom Numerik Data :**
 1. age: Usia nasabah 
 2. balance: Saldo rata-rata tahunan.
