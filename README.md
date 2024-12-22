@@ -17,6 +17,7 @@ Dataset memiliki 7.813 baris dan 11 kolom yang mencakup informasi tentang nasaba
 2. balance: Saldo rata-rata tahunan.
 3. campaign: Jumlah kontak yang dilakukan dalam kampanye ini.
 4. pdays: Jumlah hari sejak terakhir kali nasabah dihubungi (nilai -1 berarti belum pernah dihubungi).
+   
 **Kolom Kategorikal Data :**
 1. job: Jenis pekerjaan nasabah.
 2. housing: Apakah nasabah memiliki pinjaman perumahan (yes atau no).
@@ -96,8 +97,10 @@ Pemisahan ini mempermudah langkah preprocessing berikutnya.
 ## **Conclusion** ##
 
 Berikut beberapa kesimpulan yang didapatkan dari hasil analisis yang telah dilakukan:
+
 **1. Kinerja Model**
-- Model Random Forest memberikan akurasi tinggi (~85%), menunjukkan potensi yang baik dalam memprediksi nasabah yang akan membuka deposito berjangka.
+- Model Random Forest memberikan akurasi tinggi (~85%), menunjukkan potensi yang baik dalam memprediksi nasabah yang akan membuka deposito berjangka
+
 **2. Kemampuan Prediksi**
 - Model berhasil mengenali pola pada data historis seperti demografi, status keuangan, dan respons terhadap kampanye sebelumnya. Hal ini mendukung identifikasi target nasabah secara efektif. 
 - Hasil prediksi:
@@ -111,5 +114,6 @@ Berikut beberapa kesimpulan yang didapatkan dari hasil analisis yang telah dilak
 
 **1. Fokus pada Nasabah Potensial**
 - Fokuskan kampanye pemasaran pada kelompok nasabah dengan skor prediksi tinggi untuk membuka deposito berjangka.
+  
 **2. Optimalkan Strategi Pemasaran**
 - Gunakan data hasil prediksi untuk menyesuaikan penawaran, seperti waktu kampanye dan pendekatan komunikasi yang lebih personal.
