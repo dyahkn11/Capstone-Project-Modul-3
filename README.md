@@ -88,6 +88,7 @@ Pemisahan ini mempermudah langkah preprocessing berikutnya.
 2. Model Random Forest mampu menangani data dengan baik dan menghasilkan prediksi yang akurat.
 ![image](https://github.com/user-attachments/assets/fa7a6f95-31e7-4297-9427-2f7df25df325)
 ![image](https://github.com/user-attachments/assets/ed803360-6858-4a15-86be-3ae7a03f3017)
+
 **Analisis Confusion Matrix:**
 1. Nilai diagonal yang tinggi (TP dan TN) menunjukkan model sering membuat prediksi yang benar.
 2. Jika nilai FP atau FN tinggi, itu menunjukkan area untuk perbaikan, seperti memperbaiki bias kelas atau fitur yang tidak relevan.
